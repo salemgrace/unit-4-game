@@ -10,21 +10,24 @@ var gemD;
 
 // A random number needs generated
 var randomNumber = Math.floor((Math.random() * 101) + 19);
-console.log(randomNumber);
+console.log("Random Number to Guess: " + randomNumber);
+$("#number-to-guess").text(randomNumber);
 
 
 // Each gem needs to equal a random number between 1-12
 gemA = Math.floor((Math.random() * 12) + 1);
-console.log(gemA);
+console.log("Gem A: " + gemA);
+
+$("#gem-a").click
 
 gemB = Math.floor((Math.random() * 12) + 1);
-console.log(gemB);
+console.log("Gem B: " + gemB);
 
 gemC = Math.floor((Math.random() * 12) + 1);
-console.log(gemC);
+console.log("Gem C: " + gemC);
 
 gemD = Math.floor((Math.random() * 12) + 1);
-console.log(gemD);
+console.log("Gem D: " + gemD);
 
 // Each time I click a gem the score needs to go up by that assigned value
 

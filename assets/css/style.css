@@ -1,4 +1,89 @@
-.crystal-image {
+#container {
+    width: 960px;
+    align-content: center;
+}
+
+#header {
+    padding: 20px;
+    margin: 20px;
+    background: tan;
     width: 300px;
-    height: 300px;
-  }
+}
+
+#instructions {
+    padding: 20px;
+    margin: 20px;
+    background: lightblue;
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+}
+
+#number-to-guess {
+    font-size: 40px;
+    margin: 20px;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+    background: lightgreen;
+    width: 200px;
+}
+
+#stats {
+    margin: 20px;
+    padding: 30px;
+    font-weight: bold;
+    background: pink;
+    width: 200px;
+}
+
+#win-lose {
+    padding: 20px;
+}
+
+#wins, #losses {
+
+}
+
+#crystals {
+
+}
+
+.crystals {
+    width: 200px;
+}
+
+#gem-a {
+    
+}
+
+#gem-b {
+
+}
+
+#gem-c {
+    
+}
+
+#gem-d {
+
+}
+
+#current-count-header {
+    background: lightsalmon;
+    margin: 20px;
+    padding: 30px;
+    font-weight: bold;
+    width: 200px;
+
+}
+
+#current-count {
+    background: lightsalmon;
+    margin: 20px;
+    padding: 30px;
+    font-weight: bold;
+    width: 200px;    
+}
