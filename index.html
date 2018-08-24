@@ -1,21 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-  <title>Crystal Collector Game</title>
+    <title>Crystal Collector Game</title>
 
 </head>
 
 <body>
+    <div id="container">
 
-  <h1>Number to Guess: <span id="number-to-guess"> </span></h1>
+        <header id="header">
+            <h1>Crystals Collector!</h1>
+        </header>
 
-  <div id="crystals">
+        <div id="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
+                score.</p>
+            <p>You win the game by matching your total score to random a random number. You lose the game if your total score
+                goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+        </div>
+
+        <div id="number-to-guess"></div>
+
+        <div id="stats">
+            <h2 id="win-lose"></h2>
+            <h3>Wins: <span id="wins"> </span></h2>
+            <h3>Losses: <span id="losses"> </span></h2>
+        </div>
+
+        <div id="crystals">
+            <div id="gem-a"></div>
+            <div id="gem-b"></div>
+            <div id="gem-c"></div>
+            <div id="gem-d"></div>
+        </div>
+
+        <div id="current-count-header">
+            <h2>Your current count is:</h2>
+        </div>
+
+        <div id="current-count"></div>
 
     </div>
 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
 
 </body>
 
