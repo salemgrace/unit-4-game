@@ -13,10 +13,25 @@ body {
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 40px;
+}
+
 #header {
     padding: 20px;
     background: gray;
-    width: 300px;
+    width: 400px;
     margin-bottom: 20px;
 }
 
@@ -30,6 +45,7 @@ body {
 
 p {
     font-size: 18px;
+    line-height: 36px;
 }
 
 #number-stats-holder {
@@ -54,7 +70,7 @@ p {
     padding: 30px;
     width: 200px;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 60px;
     font-weight: bold;
     background: pink;
     text-align: center;
@@ -66,14 +82,6 @@ p {
     content: "";
     clear: both;
     display: table;
-}
-
-#win-lose {
-
-}
-
-#wins, #losses {
-
 }
 
 #crystals::after {
@@ -101,7 +109,7 @@ p {
 }
 
 #gem-a {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .crystals {

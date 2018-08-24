@@ -4,46 +4,37 @@ $(document).ready(function() {
 var wins = 0;
 var losses = 0;
 
-// // A random number needs generated
-// var randomNumber = Math.floor((Math.random() * 101) + 19);
-// console.log("Random Number to Guess: " + randomNumber);
-// $("#number-to-guess").text(randomNumber);
+var currentCount = 0;
 
+var randomNumber;
 
-// // Each gem needs to equal a random number between 1-12
-// gemA = Math.floor((Math.random() * 12) + 1);
-// console.log("Gem A: " + gemA);
-
-// gemB = Math.floor((Math.random() * 12) + 1);
-// console.log("Gem B: " + gemB);
-
-// gemC = Math.floor((Math.random() * 12) + 1);
-// console.log("Gem C: " + gemC);
-
-// gemD = Math.floor((Math.random() * 12) + 1);
-// console.log("Gem D: " + gemD);
+var gemA;
+var gemB;
+var gemC;
+var gemD;
 
 function startGame () {
 
 currentCount = 0;
+$("#current-count").text(currentCount);
 
 // A random number needs generated
-var randomNumber = Math.floor((Math.random() * 101) + 19);
+randomNumber = Math.floor((Math.random() * 101) + 19);
 console.log("Random Number to Guess: " + randomNumber);
 $("#number-to-guess").text(randomNumber);
 
 
 // Each gem needs to equal a random number between 1-12
-var gemA = Math.floor((Math.random() * 12) + 1);
+gemA = Math.floor((Math.random() * 12) + 1);
 console.log("Gem A: " + gemA);
 
-var gemB = Math.floor((Math.random() * 12) + 1);
+gemB = Math.floor((Math.random() * 12) + 1);
 console.log("Gem B: " + gemB);
 
-var gemC = Math.floor((Math.random() * 12) + 1);
+gemC = Math.floor((Math.random() * 12) + 1);
 console.log("Gem C: " + gemC);
 
-var gemD = Math.floor((Math.random() * 12) + 1);
+gemD = Math.floor((Math.random() * 12) + 1);
 console.log("Gem D: " + gemD);
 
 
