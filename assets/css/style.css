@@ -1,89 +1,135 @@
+body {
+    background-color: lightgrey;
+}
+
 #container {
     width: 960px;
-    align-content: center;
+    margin: 0 auto;
+    box-align: center;
+    background-image: url("../images/light-grey-terrazzo.png");
+}
+
+* {
+    box-sizing: border-box;
 }
 
 #header {
     padding: 20px;
-    margin: 20px;
-    background: tan;
+    background: gray;
     width: 300px;
+    margin-bottom: 20px;
 }
 
 #instructions {
     padding: 20px;
-    margin: 20px;
     background: lightblue;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    box-align: center;
 }
 
 p {
     font-size: 18px;
 }
 
+#number-stats-holder {
+    margin: 0 auto;
+    box-align: center;
+    width: 50%;
+}
+
 #number-to-guess {
     font-size: 40px;
-    margin: 20px;
     padding: 30px;
+    width: 200px;
     font-weight: bold;
     text-align: center;
     background: lightgreen;
-    width: 200px;
+    float: left;
+    box-align: center;
+    margin-top: 20px;
 }
 
 #stats {
-    margin: 20px;
     padding: 30px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
     font-weight: bold;
     background: pink;
-    width: 200px;
+    text-align: center;
+    float: left;
+    box-align: center;
+}
+
+#number-stats-holder::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 #win-lose {
-    padding: 20px;
+
 }
 
 #wins, #losses {
 
 }
 
-#crystals {
-
+#crystals::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-.crystals {
-    width: 200px;
+#crystals {
+    width: 70%;
+    margin: 0 auto;
+    box-align: center;
+}
+
+#gem-a, #gem-b, #gem-c, #gem-d {
+    float: left;
+    width: 130px;
+    height: 130px;
+    border: 4px solid gray;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
 }
 
 #gem-a {
-    
+    margin-left: 30px;
 }
 
-#gem-b {
-
-}
-
-#gem-c {
-    
-}
-
-#gem-d {
-
+.crystals {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 #current-count-header {
-    background: lightsalmon;
-    margin: 20px;
-    padding: 30px;
+    background: lightgoldenrodyellow;
+    padding: 10px;
     font-weight: bold;
-    width: 200px;
-
+    width: 50%;
+    margin: 0 auto;
+    box-align: center;
+    text-align: center;
 }
 
 #current-count {
-    background: lightsalmon;
-    margin: 20px;
-    padding: 30px;
+    background: lightgoldenrodyellow;
+    font-size: 40px;
     font-weight: bold;
-    width: 200px;    
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    box-align: center;
 }

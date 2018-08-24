@@ -18,8 +18,6 @@ $("#number-to-guess").text(randomNumber);
 gemA = Math.floor((Math.random() * 12) + 1);
 console.log("Gem A: " + gemA);
 
-$("#gem-a").click
-
 gemB = Math.floor((Math.random() * 12) + 1);
 console.log("Gem B: " + gemB);
 
@@ -29,6 +27,10 @@ console.log("Gem C: " + gemC);
 gemD = Math.floor((Math.random() * 12) + 1);
 console.log("Gem D: " + gemD);
 
+
+$("#current-count").text(currentCount);
+$("#wins").text(wins);
+$("#losses").text(losses);
 // Each time I click a gem the score needs to go up by that assigned value
 
 
