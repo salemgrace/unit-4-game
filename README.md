@@ -1,11 +1,10 @@
-# unit-4-game
-Fourth Homework Assignment
+# CrystalCollector
 
-### Option One: CrystalsCollector Game (Recommended)
+Link to project: https://salemgrace.github.io/unit-4-game/
 
-The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
+### Overview
 
-Here's how the app works:
+You have to guess the number that correlates to each crystal based on what the crystal collector wants...
 
    * There will be four crystals displayed as buttons on the page.
 
@@ -25,8 +24,6 @@ Here's how the app works:
      * When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
 
    * The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
-
-##### Option 1 Game design notes
 
 * The random number shown at the start of the game should be between 19 - 120.
 
